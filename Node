@@ -1,0 +1,55 @@
+package btree;
+
+
+public class Node {
+    /*public String data;*/
+    public int korkeus = 0;
+    public int value;
+    public Node left;
+    public Node right;
+    int h;
+    
+    
+    
+    public void displayData(){
+        System.out.print(value + " ");
+    }
+
+    public Node(int value) {
+        left = null;
+        right = null;
+        this.value = value;
+        h = 0;  
+        /*data = new Int(value);
+        left = right = null;*/
+    }   
+    
+    
+}
+
+    
+      
+
+    /*public  Node (String value, BinaryTree left, BinaryTree right) {
+        data = new String(value);
+        this.left = left;
+        this.right = right;
+    }*/
+    /*public String getData() {
+        return data;
+    }*/
+    /*public BinaryTree left() {
+        return left;
+    }
+    public BinaryTree right() {
+        return right;
+    }
+    public void setLeft(BinaryTree tree) {
+        left = tree;
+    }
+    public void setRight(BinaryTree tree) {
+        right = tree;
+    }
+
+
+}*/
