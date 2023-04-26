@@ -1,3 +1,3 @@
 # BinaryTree
 
-Binääripuu jossa voi liikkua nodeissa, BinaryTree-filussa varsinainen toimiva lopullinen versio
+Java-binääripuu jossa voi liikkua nodeissa, BinaryTree-filussa varsinainen toimiva lopullinen versio
